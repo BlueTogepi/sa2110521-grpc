@@ -58,7 +58,7 @@ server.addService(restaurantProto.RestaurantService.service,{
     },
     get: async (call,callback)=>{
         try {
-            let menuItem = await Model.findById(call.request.id);
+            let menuItem = await Menu.findById(call.request.id);
             callback(null, menuItem);
         } catch (error) {
             callback({
