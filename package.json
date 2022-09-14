@@ -1,0 +1,22 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.6.4",
+    "body-parser": "^1.19.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.17.1",
+    "grpc": "^1.24.10",
+    "hbs": "^4.1.2",
+    "mongoose": "^6.6.0",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
